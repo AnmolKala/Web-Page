@@ -1,0 +1,105 @@
+body{
+	font-family: 'Cormorant', serif;
+}
+
+.content{
+	padding-top: 10%;
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.navbar-inverse{
+	background: black;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+.showcase{
+	background: url(https://images.unsplash.com/photo-1524014444623-194fde519952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	padding: 140px 100px;
+	color: #fff;
+	
+}
+
+
+.showcase h1{
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+html{
+	height: 100%;
+}
+
+hr{
+	
+	border-top: 1px solid #f8f8f8
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.section{
+	padding: 40px 0;
+}
+
+.section h2{
+	padding: 0;
+	margin: 0;
+}
+
+.section .fa{
+	font-size: 50px;
+}
+
+.section img{
+	width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+	body{
+		margin-top:190px;
+	}
+
+	.showcase{
+		height:400px;
+		padding:60px 0;
+	}
+}
+
+.gallery{
+	padding-top: 70px;
+	color: #2c3e50;
+}
+
+.ig{
+	text-align: center;
+}
+
+.conta{
+	padding-top: 200px;
+}
+
+.fa-phone-square-alt:before {
+    font-size:50px;
+}
+
+.thumbnail a>img, .thumbnail>img : hover{
+    opacity: 0.5;
+}
